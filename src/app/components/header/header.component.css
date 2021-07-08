@@ -1,0 +1,47 @@
+header{
+  font-family: 'Otomanopee One', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  text-align: center;
+  background-color: #6a89cc;
+  width:  100%;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+h1 a{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+h1 i {
+  margin: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  border: solid 1px black;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px black;
+  padding: 10px;
+  margin: 15px;
+}
